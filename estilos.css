@@ -3,8 +3,15 @@ header {
     color: white;
     background-color: #333;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px; /* Ajusta la altura según sea necesario */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
     text-align: center;
-    justify-content: space-between;
 }
 
 footer {
@@ -13,4 +20,11 @@ footer {
     padding: 20px;
     text-align: center;
     position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Ajusta la altura según sea necesario */
 }
